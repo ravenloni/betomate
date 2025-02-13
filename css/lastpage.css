@@ -11,6 +11,7 @@ body {
   align-items: center;
 }
 #thankyou {
+  max-width: 600px;
   font-size: 50px;
   margin-bottom: 20px;
   color: #ff9494;
@@ -21,7 +22,6 @@ body {
   cursor: pointer;
   margin: 10px;
   font-family: "courier";
-  margin-bottom: 20px;
   background-color: #ffe3e1;
   color: #e67373;
   border-radius: 12px;
@@ -38,5 +38,5 @@ body {
 }
 .mensaje{
   width: 90%;
-  max-width: 600px;
+  max-width: 850px;
 }

@@ -1,6 +1,8 @@
 body{
     background-color: #FFF5E4;
     display: flex;
+    width: 100%;
+    overflow: hidden;
     flex-direction: column; /* Change the direction to column */
     align-items: center;
     justify-content: flex-end; /* Align items to the start of the container */
@@ -12,8 +14,9 @@ body{
     font-family: courier;
     width: 100%; /* Ensure it spans the full width */
     text-align: center; /* Keep the text centered */
-    z-index: 1000; /* Ensure it's above other elements if needed */
+    z-index: 10000; /* Ensure it's above other elements if needed */
     position: absolute; /* Adjust based on layout needs */
-    top: 100px;
+    top: 80px;
+    text-shadow: 2px 3px 4px #FFC961;
 	font-size: 50px;
 }
