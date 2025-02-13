@@ -14,7 +14,7 @@ body{
     font-family: courier;
     width: 100%; /* Ensure it spans the full width */
     text-align: center; /* Keep the text centered */
-    z-index: 10000; /* Ensure it's above other elements if needed */
+    z-index: 100000; /* Ensure it's above other elements if needed */
     position: absolute; /* Adjust based on layout needs */
     top: 80px;
     text-shadow: 2px 3px 4px #FFC961;
